@@ -13,7 +13,9 @@
 		F765F66D1F0D22BE000D241F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F765F66C1F0D22BE000D241F /* ViewController.swift */; };
 		F765F6701F0D22C9000D241F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F765F66E1F0D22C9000D241F /* LaunchScreen.storyboard */; };
 		F765F6711F0D22C9000D241F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F765F66F1F0D22C9000D241F /* Main.storyboard */; };
-		F765F6731F0D2583000D241F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F765F6721F0D2583000D241F /* User.swift */; };
+		F765F6751F0D3736000D241F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F765F6741F0D3736000D241F /* User.swift */; };
+		F765F6771F0D37F3000D241F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F765F6761F0D37F3000D241F /* Constants.swift */; };
+		F765F6791F0D3808000D241F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F765F6781F0D3808000D241F /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +28,9 @@
 		F765F66C1F0D22BE000D241F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controllers/ViewController.swift; sourceTree = "<group>"; };
 		F765F66E1F0D22C9000D241F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F765F66F1F0D22C9000D241F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
-		F765F6721F0D2583000D241F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F765F6741F0D3736000D241F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		F765F6761F0D37F3000D241F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Utils/Constants.swift; sourceTree = "<group>"; };
+		F765F6781F0D3808000D241F /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = CustomViews/CustomView.swift; sourceTree = "<group>"; };
 		F9031ED4E7CC8000C6D1D9BD /* Pods-Travelsistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travelsistant.release.xcconfig"; path = "Pods/Target Support Files/Pods-Travelsistant/Pods-Travelsistant.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +107,7 @@
 		F765F6661F0D20F6000D241F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F765F6721F0D2583000D241F /* User.swift */,
+				F765F6741F0D3736000D241F /* User.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -111,6 +115,7 @@
 		F765F6671F0D20FC000D241F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F765F6761F0D37F3000D241F /* Constants.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 		F765F6681F0D2104000D241F /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				F765F6781F0D3808000D241F /* CustomView.swift */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -255,9 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F765F6791F0D3808000D241F /* CustomView.swift in Sources */,
 				F765F66D1F0D22BE000D241F /* ViewController.swift in Sources */,
 				F739EB111F0D1E0800787687 /* AppDelegate.swift in Sources */,
-				F765F6731F0D2583000D241F /* User.swift in Sources */,
+				F765F6751F0D3736000D241F /* User.swift in Sources */,
+				F765F6771F0D37F3000D241F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
