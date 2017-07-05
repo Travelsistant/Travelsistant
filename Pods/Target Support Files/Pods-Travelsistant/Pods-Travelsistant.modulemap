@@ -1,0 +1,6 @@
+framework module Pods_Travelsistant {
+  umbrella header "Pods-Travelsistant-umbrella.h"
+
+  export *
+  module * { export * }
+}

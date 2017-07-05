@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37242A16C69B3AF7E11157C5 /* Pods_Travelsistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F560982675EF5EB09AAF45 /* Pods_Travelsistant.framework */; };
+		F739EB111F0D1E0800787687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F739EB101F0D1E0800787687 /* AppDelegate.swift */; };
+		F739EB131F0D1E0800787687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F739EB121F0D1E0800787687 /* ViewController.swift */; };
+		F739EB161F0D1E0800787687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F739EB141F0D1E0800787687 /* Main.storyboard */; };
+		F739EB181F0D1E0800787687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F739EB171F0D1E0800787687 /* Assets.xcassets */; };
+		F739EB1B1F0D1E0800787687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F739EB191F0D1E0800787687 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22F560982675EF5EB09AAF45 /* Pods_Travelsistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travelsistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FC678C90131D31DE746B65 /* Pods-Travelsistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travelsistant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travelsistant/Pods-Travelsistant.debug.xcconfig"; sourceTree = "<group>"; };
+		F739EB0D1F0D1E0800787687 /* Travelsistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travelsistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F739EB101F0D1E0800787687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F739EB121F0D1E0800787687 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F739EB151F0D1E0800787687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F739EB171F0D1E0800787687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F739EB1A1F0D1E0800787687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F739EB1C1F0D1E0800787687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9031ED4E7CC8000C6D1D9BD /* Pods-Travelsistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travelsistant.release.xcconfig"; path = "Pods/Target Support Files/Pods-Travelsistant/Pods-Travelsistant.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F739EB0A1F0D1E0800787687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37242A16C69B3AF7E11157C5 /* Pods_Travelsistant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C08E2A5822DA92EB1A8BF90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC678C90131D31DE746B65 /* Pods-Travelsistant.debug.xcconfig */,
+				F9031ED4E7CC8000C6D1D9BD /* Pods-Travelsistant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69CD9BAE9405751A79F126EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22F560982675EF5EB09AAF45 /* Pods_Travelsistant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F739EB041F0D1E0700787687 = {
+			isa = PBXGroup;
+			children = (
+				F739EB0F1F0D1E0800787687 /* Travelsistant */,
+				F739EB0E1F0D1E0800787687 /* Products */,
+				0C08E2A5822DA92EB1A8BF90 /* Pods */,
+				69CD9BAE9405751A79F126EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F739EB0E1F0D1E0800787687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F739EB0D1F0D1E0800787687 /* Travelsistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F739EB0F1F0D1E0800787687 /* Travelsistant */ = {
+			isa = PBXGroup;
+			children = (
+				F739EB101F0D1E0800787687 /* AppDelegate.swift */,
+				F739EB121F0D1E0800787687 /* ViewController.swift */,
+				F739EB141F0D1E0800787687 /* Main.storyboard */,
+				F739EB171F0D1E0800787687 /* Assets.xcassets */,
+				F739EB191F0D1E0800787687 /* LaunchScreen.storyboard */,
+				F739EB1C1F0D1E0800787687 /* Info.plist */,
+			);
+			path = Travelsistant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F739EB0C1F0D1E0800787687 /* Travelsistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F739EB1F1F0D1E0800787687 /* Build configuration list for PBXNativeTarget "Travelsistant" */;
+			buildPhases = (
+				72A726B7F383C74CA75849B5 /* [CP] Check Pods Manifest.lock */,
+				F739EB091F0D1E0800787687 /* Sources */,
+				F739EB0A1F0D1E0800787687 /* Frameworks */,
+				F739EB0B1F0D1E0800787687 /* Resources */,
+				97B9F4D6A3C354622586CD18 /* [CP] Embed Pods Frameworks */,
+				361EED9DDA630E3609927DBC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Travelsistant;
+			productName = Travelsistant;
+			productReference = F739EB0D1F0D1E0800787687 /* Travelsistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F739EB051F0D1E0800787687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nguyen Chau Chieu";
+				TargetAttributes = {
+					F739EB0C1F0D1E0800787687 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K9KN8EQ6H2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F739EB081F0D1E0800787687 /* Build configuration list for PBXProject "Travelsistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F739EB041F0D1E0700787687;
+			productRefGroup = F739EB0E1F0D1E0800787687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F739EB0C1F0D1E0800787687 /* Travelsistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F739EB0B1F0D1E0800787687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F739EB1B1F0D1E0800787687 /* LaunchScreen.storyboard in Resources */,
+				F739EB181F0D1E0800787687 /* Assets.xcassets in Resources */,
+				F739EB161F0D1E0800787687 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		361EED9DDA630E3609927DBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travelsistant/Pods-Travelsistant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72A726B7F383C74CA75849B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97B9F4D6A3C354622586CD18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travelsistant/Pods-Travelsistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F739EB091F0D1E0800787687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F739EB131F0D1E0800787687 /* ViewController.swift in Sources */,
+				F739EB111F0D1E0800787687 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F739EB141F0D1E0800787687 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F739EB151F0D1E0800787687 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F739EB191F0D1E0800787687 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F739EB1A1F0D1E0800787687 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F739EB1D1F0D1E0800787687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F739EB1E1F0D1E0800787687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F739EB201F0D1E0800787687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FC678C90131D31DE746B65 /* Pods-Travelsistant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K9KN8EQ6H2;
+				INFOPLIST_FILE = Travelsistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenchau.Travelsistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F739EB211F0D1E0800787687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9031ED4E7CC8000C6D1D9BD /* Pods-Travelsistant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K9KN8EQ6H2;
+				INFOPLIST_FILE = Travelsistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenchau.Travelsistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F739EB081F0D1E0800787687 /* Build configuration list for PBXProject "Travelsistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F739EB1D1F0D1E0800787687 /* Debug */,
+				F739EB1E1F0D1E0800787687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F739EB1F1F0D1E0800787687 /* Build configuration list for PBXNativeTarget "Travelsistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F739EB201F0D1E0800787687 /* Debug */,
+				F739EB211F0D1E0800787687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F739EB051F0D1E0800787687 /* Project object */;
+}
