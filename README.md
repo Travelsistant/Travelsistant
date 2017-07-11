@@ -21,7 +21,7 @@ The following **required** functionality is completed:
 - [ ] User can choose the shop they like the most.
 - [ ] User can make a review and rating for the shop.
 - [ ] The shop can offer to buy the goods.
-- [ ] User can take a picture and give a short description about the current condition of the goods to include to the post.
+- [ ] User can take a picture and give a short description about the current condition of the goods to include it in the post.
 
 The following **optional** features are implemented:
 
