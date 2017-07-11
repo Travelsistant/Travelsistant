@@ -42,11 +42,9 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of our application:
 
-
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+<img src='https://github.com/Travelsistant/Travelsistant/blob/master/Wireframe.png' title='Workflow' width='' alt='Workflow' />
 
 ## Notes
 
