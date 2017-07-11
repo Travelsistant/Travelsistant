@@ -1,6 +1,8 @@
-# Final Project - Travelsistant
+# Final Project - PawnConnect
 
-Travelsistant is a mobile application help group of travelers to keep track the location of their team members in real time and other features to make your trip well-organised.
+PawnConnect is a mobile application to make Pawn activity easier. It helps pawn shop and the person who want to pawn their stuff find each others.
+User can post things they want to pawn including description and pictures to the system. The pawn shop can see it, and they can offer the price, the interest rate, and also the period for that stuff and join somehow called a bid with other shops. User can see the offers from the shops and choose the one they like the most.
+Pawn shops can also offer to buy the things from the user.
 
 Time spent: X hours spent in total
 
@@ -8,31 +10,26 @@ Time spent: X hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] User can create, update their profile.
-- [ ] User can create a trip and add more users to that trip.
-- [ ] The trip's leader can start a trip.
-- [ ] The trip's leader can stop a trip.
-- [ ] User can see other members avatar in a map.
-- [ ] User can click on one avatar to see the other's profile in a small box, continue clicking on the name to open full profile page.
-- [ ] On user's profile box or screen, user can send a message to their teammate.
-- [ ] If a member is currently offline, the last location will be shown.
-- [ ] User can quicky click a button on the map screen to raise an alert for helping to other team members.
-- [ ] User can receive notification for incoming messages or alerts.
-- [ ] Users are asked to give permission for location tracking when they are added to the group.
-- [ ] When the trip is stopped, the application will dismiss the group and stop tracking user notification.
+- [ ] User can create their account profile.
+- [ ] The shop can create their account profile.
+- [ ] User post their things to looking for a pawn.
+- [ ] The shop can see the list of pawns
+- [ ] Pawn shop can offer their bid to a post.
+- [ ] The shop can write a short review about the goods.
+- [ ] User can see the list of offers from the shops.
+- [ ] User can see the detail information of the shop and their rating stars and review of other users about that shop.
+- [ ] User can choose the shop they like the most.
+- [ ] User can make a review and rating for the shop.
+- [ ] The shop can offer to buy the goods.
+- [ ] User can take a picture and give a short description about the current condition of the goods to include to the post.
 
 The following **optional** features are implemented:
 
-- [ ] User can choose to hide or unhide other nearby groups.
-- [ ] A leader can choose to push alert for himself to other members or an alert of the whole group to other nearby groups.
-- [ ] A leader can receive notification for an alert from another team.
-- [ ] Two leaders can merge their groups, the team leader who click the merge button will become a member of the destination group.
-- [ ] User can find a group and join.
-- [ ] Compass to use in offline case.
-- [ ] Path guiding to selected user's location and show distance between them.
-- [ ] Suggest nearby restaurants, hotels, gas stations, ATM....
-- [ ] Trip planing, managing.
-- [ ] Emergency call.
+- [ ] User can see the route to the shop's location in a map
+- [ ] The shop can choose the good's category to follow.
+- [ ] The shop can receive a notification when a user post something related to the category which the shop is following.
+- [ ] The shop needs to pay the fee for creating the account.
+- [ ] The shop needs to pay the maintaining fee for the period of one year or one month.
 
 The following **additional** features are implemented:
 
